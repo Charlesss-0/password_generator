@@ -1,0 +1,86 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 60.5%;
+}
+
+body {
+    background: linear-gradient(
+        90deg,
+        #84A7A1,
+        #2E8A99,
+        #1F6E8C,
+        #0E2954
+    );
+    color: #aaa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* MAIN SECTION START */
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.intro-title {
+    text-align: center;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.password-container {
+    border: solid #fff;
+    width: 50em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #aaa;
+    cursor: text;
+}
+
+.password-container p {
+    font-size: 3rem;
+    color: #555;
+    text-align: center;
+}
+
+.generator-btn button {
+    width: 20rem;
+    height: 5rem;
+    background-color: #4CAF50;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fff;
+    transition: transform .2s ease-in-out;
+}
+
+.generator-btn button:active {
+    transform: scale(0.95);
+}

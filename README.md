@@ -1,1 +1,1 @@
-# password_generator
+As one of my first projects using JavaScript, I've decided to create a password generator 
